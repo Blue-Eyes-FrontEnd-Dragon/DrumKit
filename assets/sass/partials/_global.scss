@@ -1,0 +1,23 @@
+footer {
+    font-family: $indie-flower-cursive;
+}
+
+body {
+    text-align: center;
+    background-color: $main-background;
+    color: $text;
+}
+
+h1 {
+    font-family: $arvo-cursive;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+.red {
+    color: red;
+}
+  

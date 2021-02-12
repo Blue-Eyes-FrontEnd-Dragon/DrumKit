@@ -1,0 +1,55 @@
+.set {
+    margin: 10% auto;
+}
+
+.pressed {
+    box-shadow: 0 3px 5px 0 $pressed;
+    opacity: 0.8;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid $drum-border;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    font-family: $arvo-cursive;
+    font-weight: 900;
+    color: $drum;
+    text-shadow: 3px 0 $text-shadow;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.w {
+
+}
+
+.a {
+
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
