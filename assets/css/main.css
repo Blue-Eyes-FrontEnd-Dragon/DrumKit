@@ -51,4 +51,32 @@ h1 {
   background-color: white;
 }
 
+.w {
+  background-image: url("/assets/images/tom1.png");
+}
+
+.a {
+  background-image: url("/assets/images/tom2.png");
+}
+
+.s {
+  background-image: url("/assets/images/tom3.png");
+}
+
+.d {
+  background-image: url("/assets/images/tom4.png");
+}
+
+.j {
+  background-image: url("/assets/images/snare.png");
+}
+
+.k {
+  background-image: url("/assets/images/crash.png");
+}
+
+.l {
+  background-image: url("/assets/images/kick.png");
+}
+
 /*# sourceMappingURL=main.css.map */
