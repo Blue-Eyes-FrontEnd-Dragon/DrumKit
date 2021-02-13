@@ -2,47 +2,52 @@ let drums = document.querySelectorAll(".drum");
 
 for (let i = 0; i < drums.length; i++) {
     drums[i].addEventListener("click", function () {
-       handleButtonClick(this)
+       handleInputEvent(this.textContent)
     });
 }
 
-function handleButtonClick(button) {
-    if (button.textContent.includes("W")) {
+document.addEventListener('keydown', function (event) {
+    handleInputEvent(event.key.toUpperCase());
+});
+
+function handleInputEvent(button) {
+    if (button.includes("W")) {
         play("tom-1");
         return 0;
     }
 
-    if (button.textContent.includes("A")) {
+    if (button.includes("A")) {
         play("tom-2");
         return 0;
     }
 
-    if (button.textContent.includes("S")) {
+    if (button.includes("S")) {
         play("tom-3");
         return 0;
     }
 
-    if (button.textContent.includes("D")) {
+    if (button.includes("D")) {
         play("tom-4");
         return 0;
     }
 
-    if (button.textContent.includes("J")) {
+    if (button.includes("J")) {
         play("snare");
         return 0;
     }
 
-    if (button.textContent.includes("K")) {
+    if (button.includes("K")) {
         play("crash");
         return 0;
     }
 
-    if (button.textContent.includes("L")) {
+    if (button.includes("L")) {
         play("kick-bass");
         return 0;
     }
 
     console.log(button);
+    return 1;
 }
 
 function play(fileName) {
