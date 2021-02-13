@@ -34,11 +34,15 @@ function handleButtonClick(button) {
 
     if (button.textContent.includes("K")) {
         play("crash");
+        return 0;
     }
 
     if (button.textContent.includes("L")) {
         play("kick-bass");
+        return 0;
     }
+
+    console.log(button);
 }
 
 function play(fileName) {
